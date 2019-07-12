@@ -1,0 +1,11 @@
+﻿  main.cpp
+e:\vswork\opengl_\opengl_\main.cpp(56): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+e:\vswork\opengl_\opengl_\main.cpp(56): warning C4244: “参数”: 从“GLint”转换到“float”，可能丢失数据
+e:\vswork\opengl_\opengl_\main.cpp(79): warning C4244: “参数”: 从“GLint”转换到“float”，可能丢失数据
+e:\vswork\opengl_\opengl_\main.cpp(80): warning C4244: “参数”: 从“GLint”转换到“float”，可能丢失数据
+e:\vswork\opengl_\opengl_\main.cpp(81): warning C4244: “参数”: 从“GLint”转换到“float”，可能丢失数据
+e:\vswork\opengl_\opengl_\main.cpp(99): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+e:\vswork\opengl_\opengl_\main.cpp(125): warning C4305: “-=”: 从“double”到“float”截断
+e:\vswork\opengl_\opengl_\main.cpp(127): warning C4305: “+=”: 从“double”到“float”截断
+e:\vswork\opengl_\opengl_\main.cpp(208): warning C4244: “参数”: 从“float”转换到“DWORD”，可能丢失数据
+  OpenGL_.vcxproj -> E:\VSWork\OpenGL_\x64\Debug\OpenGL_.exe

@@ -1,0 +1,4 @@
+﻿D:\vs2017_persion\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: 中间目录(x64\Debug\)包含从另一个项目(OpenGL_.vcxproj, OpenGL_第7章课后题.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  main.cpp
+e:\vswork\opengl_\opengl_二维观察\main.cpp(98): warning C4244: “参数”: 从“float”转换到“DWORD”，可能丢失数据
+  OpenGL_二维观察.vcxproj -> E:\VSWork\OpenGL_\x64\Debug\OpenGL_二维观察.exe

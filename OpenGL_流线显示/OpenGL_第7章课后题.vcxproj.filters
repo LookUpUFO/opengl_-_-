@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="stb_image.cpp">
+      <Filter>执行文件</Filter>
+    </ClCompile>
+    <ClCompile Include="glew.c">
+      <Filter>执行文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>执行文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\math_Lib\Matrix.cpp">
+      <Filter>执行文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Task_1.cpp">
+      <Filter>习题\7.1</Filter>
+    </ClCompile>
+    <ClCompile Include="Task_2.cpp">
+      <Filter>习题\7.1</Filter>
+    </ClCompile>
+    <ClCompile Include="Task_3.cpp">
+      <Filter>习题\7.1</Filter>
+    </ClCompile>
+    <ClCompile Include="Task_4.cpp">
+      <Filter>习题\7.1</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="glew\glew.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="glew\glxew.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\math_Lib\Matrix.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="glew\wglew.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="glew\eglew.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IRender.h">
+      <Filter>执行文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Task_1.h">
+      <Filter>习题\7.1</Filter>
+    </ClInclude>
+    <ClInclude Include="Task_2.h">
+      <Filter>习题\7.1</Filter>
+    </ClInclude>
+    <ClInclude Include="Task_3.h">
+      <Filter>习题\7.1</Filter>
+    </ClInclude>
+    <ClInclude Include="Task_4.h">
+      <Filter>习题\7.1</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{9e80aca3-8619-4dd0-b7c9-06f1b411bec8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="执行文件">
+      <UniqueIdentifier>{359950ea-52a7-4267-9844-783449200b59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="习题">
+      <UniqueIdentifier>{f0e461a9-0609-417e-a8ed-27213fbcc635}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="习题\7.1">
+      <UniqueIdentifier>{061b400e-64de-43b5-a776-29d6809490bc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

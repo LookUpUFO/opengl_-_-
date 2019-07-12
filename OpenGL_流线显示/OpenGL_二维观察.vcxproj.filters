@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\math_Lib\Matrix.cpp" />
+    <ClCompile Include="glew.c" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="stb_image.cpp" />
+    <ClCompile Include="NormalClip.cpp">
+      <Filter>裁剪算</Filter>
+    </ClCompile>
+    <ClCompile Include="Cohen_Sutherland.cpp">
+      <Filter>裁剪算</Filter>
+    </ClCompile>
+    <ClCompile Include="Brasky.cpp">
+      <Filter>裁剪算</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\math_Lib\Matrix.h" />
+    <ClInclude Include="glew\eglew.h" />
+    <ClInclude Include="glew\glew.h" />
+    <ClInclude Include="glew\glxew.h" />
+    <ClInclude Include="glew\wglew.h" />
+    <ClInclude Include="stb_image.h" />
+    <ClInclude Include="IRender.h">
+      <Filter>裁剪算</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalClip.h">
+      <Filter>裁剪算</Filter>
+    </ClInclude>
+    <ClInclude Include="Cohen_Sutherland.h">
+      <Filter>裁剪算</Filter>
+    </ClInclude>
+    <ClInclude Include="Brasky.h">
+      <Filter>裁剪算</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="裁剪算">
+      <UniqueIdentifier>{a0051738-fd9b-4498-974b-f14578f6357c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
