@@ -15,6 +15,12 @@
 #include <fstream>
 
 #include "MarchingCube.h"
+#include "Camera2.h"
+ 
+#include "GameObject.h"
+
+
+
 
 using namespace  WHQ;
  
@@ -60,31 +66,37 @@ void init()
 	glMatrixMode(GL_MODELVIEW);
  
 
-	pmeshArray = streamLine("E:\\9hz_lamdaci_0001.dat");
+//	pmeshArray = streamLine("E:\\9hz_lamdaci_0001.dat");
+
+
+	GameObject m_Camera;
+	m_Camera.AddComponent<Camera2>();
 	 
 
 }
 static GLfloat angle = 0.0f;   
- 
+
+
 void RenderLoop()
 {
 	//设置适口
 	//设置适口
 	//glViewport(0, 0, 200, 100);
 
-	glClearColor(1, 1, 1,1);
-	glClear(GL_COLOR_BUFFER_BIT);	
- 
-	 
+	/*glClearColor(1, 1, 1,1);
+	glClear(GL_COLOR_BUFFER_BIT);
+
+
 	glColor3f(0, 0, 0);
 	glEnableClientState(GL_VERTEX_ARRAY);
 	glVertexPointer( 3, GL_FLOAT, sizeof(Vector3), &(pmeshArray.front().m_vertexArrar[0]));
 	glDrawArrays(GL_POINTS, 0, pmeshArray.front().m_vertexArrar.size());
-	
+
 	glFlush();
+*/
 
 
-
+	ComponentCollection::Instance()->Update();
 }
 
 void OnReshapeWindowFunc(int width, int height)

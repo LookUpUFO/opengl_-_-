@@ -129,20 +129,31 @@
   <ItemGroup>
     <ClCompile Include="..\math_Lib\Matrix.cpp" />
     <ClCompile Include="Brasky.cpp" />
+    <ClCompile Include="Camera2.cpp" />
     <ClCompile Include="Cohen_Sutherland.cpp" />
+    <ClCompile Include="Component.cpp" />
+    <ClCompile Include="ComponentCollection.cpp" />
+    <ClCompile Include="GameObject.cpp" />
     <ClCompile Include="glew.c" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MarchingCube.cpp" />
     <ClCompile Include="Mesh.cpp" />
     <ClCompile Include="NormalClip.cpp" />
+    <ClCompile Include="Object.cpp" />
     <ClCompile Include="PointClound.cpp" />
+    <ClCompile Include="Scene.cpp" />
     <ClCompile Include="stb_image.cpp" />
     <ClCompile Include="streamLineFilter.cpp" />
+    <ClCompile Include="Translate.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\math_Lib\Matrix.h" />
     <ClInclude Include="Brasky.h" />
+    <ClInclude Include="Camera2.h" />
     <ClInclude Include="Cohen_Sutherland.h" />
+    <ClInclude Include="Component.h" />
+    <ClInclude Include="ComponentCollection.h" />
+    <ClInclude Include="GameObject.h" />
     <ClInclude Include="glew\eglew.h" />
     <ClInclude Include="glew\glew.h" />
     <ClInclude Include="glew\glxew.h" />
@@ -152,9 +163,17 @@
     <ClInclude Include="MarchingCube.h" />
     <ClInclude Include="Mesh.h" />
     <ClInclude Include="NormalClip.h" />
+    <ClInclude Include="Object.h" />
     <ClInclude Include="PointClound.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Scene.h" />
+    <ClInclude Include="Singler.h" />
     <ClInclude Include="stb_image.h" />
     <ClInclude Include="streamLineFilter.h" />
+    <ClInclude Include="Translate.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="OpenGL_流线显示.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
